@@ -12,10 +12,11 @@ p {
 	font-size: 15pt;
 }
 .edge {
-	margin-top: 2%;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-top: 3%;
+	margin-left: 18w%;
+	margin-right: 1%;
 }
+
 
 /*Everything below this point is intergral to the header working. Please do not change anything. Thank you.*/
 
@@ -181,3 +182,52 @@ img {
 	border-bottom: dotted 1px rgba(255,255,255,.15);
 	background: rgba(153,117,185,.02);
 }
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+/*this here below is the second container for the second hovering image*/
+.container2 {
+  position: relative;
+  left: 1000px;
+  width: 200px;
+  height:212px;
+}
+
+.image2 {
+  display: block;
+  width: 500px;
+  height: 300px;
+  
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 500px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #696969;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.text2 {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+  
