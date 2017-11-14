@@ -1,0 +1,140 @@
+
+body {
+	background-color:black;
+	height:100vh;
+	width: 100vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+.titlerow{
+	height:20vh;
+	width:100vh;
+}
+
+.row{
+	height:40vh;
+	width:100vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.row2{
+	height:40vh;
+	width:100vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.box{
+	height:100%;
+	width:20%;
+}
+
+.pink{
+	background-color:pink;
+}
+
+.purple{
+	background-color:purple;
+}
+
+/*Images for purple boxes*/
+
+img {
+    padding-top: 10%;
+    padding-right: 10p%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    width: 80%;
+	height: 80%;
+	margin:0;
+}
+
+p {
+	padding-top: 10%;
+    padding-right: 55p%;
+    padding-bottom: 10%;
+    padding-left: 55%;
+	
+}
+@media screen and (max-width:800px)
+	{
+	.row{width:50vw;
+	     height:75%;
+		 display:block;}
+	
+	.row2{width:50vw;
+	        height:75%;
+			display:block;}
+	
+	.box{width:100%;
+	     height:15vh;}
+		 
+    .box2{
+	height:100%;
+	width:20%;
+}
+
+	
+	img{width:10vw;
+	    height:10vh;
+        padding:10px;
+	}
+	
+	}
+
+/*this is a tester for the hover*/
+
+
+.container{
+	position:relative;
+	width:20vw;
+	height:100%;
+}
+
+.overlay{
+	 position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:	#FAEBD7;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay{
+	 bottom: 0;
+     height: 100%;
+	 width: 100%;
+}
+
+.text{
+	 white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.box{
+	height: 100%;
+	width:100%;
+	flex:flex-wrap;
+}
+
+.box2{
+	height:100%;
+	width:100%;
+	flex-flex-wrap;
+}
+
+
+
